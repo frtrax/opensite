@@ -1,0 +1,113 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.pdf-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pdf-box a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+  font-family: 'Rock Salt', cursive;
+}
+
+.title{
+  background: linear-gradient(white, rgb(101, 101, 101));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.info-1 h2{
+  background: linear-gradient(white 55%, rgb(101, 101, 101));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+
+.carte{
+  width: 100%;
+  color:rgb(235, 225, 225);
+  background: rgba(6, 32, 196, 0.8);
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+}
+
+.carte2{
+  width: 100%;
+  color:rgb(235, 225, 225);
+  background: rgb(118, 118, 118);
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+}
+
+.carte3{
+  width: 100%;
+  color:rgb(235, 225, 225);
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+}
+
+.pdf-box img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.carte2 img{
+  padding: 10px;
+}
+
+.carte3 img{
+  padding: 10px;
+}
+
+.carte3-txt{
+  width: 100%;
+  color:rgb(235, 225, 225);
+  background: linear-gradient(rgb(138, 88, 255), rgb(246, 72, 72));
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+}
+
+.carte3-txt img{
+  padding: 10px;
+}
+
+.carte4 img{
+  padding: 10px;
+}
+
+.carte4-txt{
+  width: 100%;
+  color:rgb(235, 225, 225);
+  background: linear-gradient(rgb(0, 205, 246) 0%, rgb(0, 0, 255));
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+}
+
+.carte4-txt img{
+  padding: 10px;
+}

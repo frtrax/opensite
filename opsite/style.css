@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .entry {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px; /* Ajout de la marge inférieure */
+  }
+  
+  .entry h1 {
+    color: #333333;
+    text-align: center;
+    font-family: 'Flow Rounded', cursive;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+  
+  .entry p {
+    color: #333333;
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    margin-bottom: 20px;
+    text-decoration: wavy;
+    font-size: 18px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .title img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Ajoutez les styles pour la transition entre les pages */
+  .ecran {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  .ecran.out {
+    animation: page-transition 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes page-transition {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-50px);
+    }
+  }
+  
+  .vision-page {
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .vision-page{
+    color: #555555;
+    font-family: 'Flow Rounded', cursive;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .vision-page h1 {
+    color: #333333;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .vision-page p {
+    color: #555555;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .vision-page .quote {
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .vision-page .link-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vision-page .link-button:hover {
+    background-color: #555555;
+  }
+  
+  .quote q{
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+  }

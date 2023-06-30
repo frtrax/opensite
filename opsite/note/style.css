@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size:60px;
+}
+
+.note{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.note h3{
+    font-size: 50px;
+    text-decoration: overline;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.note p{
+    font-family: 'Arima', cursive;
+}
